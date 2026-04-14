@@ -1,24 +1,34 @@
-1 env
-
-Its gonna be a ml churn model built onnn k8 , fastapi , aws , docker , mlflow 
-model that im gonna be using is xgboost 
-
-the folders temapates were made and requiremnt txt for the downloads and python env 
-
-
-2 EDA 
- 
-
-
-3 mOdulaize EDA
-       gonna try it do it myself 
-    need to look into seeborn and xgboost and decetison trees 
-    the encodign myself yes no to 1 and 0 
-
-
-
-4 Training 
-5 Serving and Ui 
-6 Containerzation 
-7 CI/CD
-8 AWS deployment and end user 
+1. Environment Setup
+Python virtual environment configured
+Dependencies managed via requirements.txt
+Project structure initialized with modular folders
+🔍 2. Exploratory Data Analysis (EDA)
+Understand dataset structure and distributions
+Identify missing values and feature relationships
+Initial visualizations to guide feature engineering
+🧩 3. Modularized EDA & Feature Engineering
+Refactor EDA into reusable modules
+Implement custom encoding:
+Binary encoding (e.g., Yes/No → 1/0)
+Explore:
+Seaborn for visualization
+Decision Trees for feature intuition
+XGBoost for model-ready transformations
+🏋️ 4. Model Training
+Train churn prediction model using XGBoost
+Evaluate performance using appropriate metrics
+Track experiments with MLflow
+🌐 5. Serving & UI
+Build API endpoints using FastAPI
+Serve predictions in real-time
+Optional lightweight UI for user interaction
+📦 6. Containerization
+Package application using Docker
+Ensure reproducibility across environments
+🔄 7. CI/CD Pipeline
+Automate testing and deployment workflows
+Integrate with version control for continuous delivery
+☁️ 8. AWS Deployment & End User Access
+Deploy containers to AWS infrastructure
+Use Kubernetes for scaling and orchestration
+Provide accessible endpoints for end users
